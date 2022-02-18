@@ -24,5 +24,5 @@ const task = [
 ]
 
 exports.seed = async function (knex) {
-    await knex('task').insert(task)
+    await knex('tasks').insert(task)
 }

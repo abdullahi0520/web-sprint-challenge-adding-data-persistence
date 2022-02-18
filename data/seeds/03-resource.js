@@ -1,4 +1,4 @@
-const resource = [
+const resources = [
     {
         resource_id: 1,
         resource_name: 'Mr Macho',
@@ -20,5 +20,5 @@ const resource = [
 ]
 
 exports.seed = async function (knex) {
-    await knex('resource').insert(resource)
+    await knex('resources').insert(resources)
 }
